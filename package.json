@@ -1,0 +1,21 @@
+{
+  "name": "task-tracker-cli",
+  "version": "1.0.0",
+  "description": "Backend CLI ",
+  "main": "index.js",
+  "author": "Erick Muke <muke7881@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "add": "node index.js add",
+    "edit": "node index.js edit",
+    "delete": "node index.js delete",
+    "list": "node index.js list",
+    "list-progress": "node index.js list-progress",
+    "list-not-done": "node index.js list-not-done",
+    "list-done": "node index.js list-done",
+    "complete": "node index.js complete",
+    "not-complete": "node index.js not-complete",
+    "help": "node index.js help"
+  }
+}

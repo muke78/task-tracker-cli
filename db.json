@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1738292574006,
+    "description": "Tarea 1",
+    "status": {
+      "TaskThataAreDone": false,
+      "TasksThatAreNotDone": true,
+      "TasksThatAreInProgress": false
+    },
+    "createAt": "2025-01-31 9:2 PM",
+    "updateAt": "2025-01-31 9:2 PM"
+  },
+  {
+    "id": 1738292578600,
+    "description": "Tarea 2",
+    "status": {
+      "TaskThataAreDone": true,
+      "TasksThatAreNotDone": false,
+      "TasksThatAreInProgress": false
+    },
+    "createAt": "2025-01-31 9:2 PM",
+    "updateAt": "2025-01-31 9:2 PM"
+  },
+  {
+    "id": 1738308690825,
+    "description": "The weekend",
+    "status": {
+      "TaskThataAreDone": false,
+      "TasksThatAreNotDone": false,
+      "TasksThatAreInProgress": true
+    },
+    "createAt": "2025-01-31 1:31 AM",
+    "updateAt": "2025-01-31 1:31 AM"
+  }
+]
