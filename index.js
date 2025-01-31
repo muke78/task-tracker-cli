@@ -17,7 +17,7 @@ switch (command) {
   // CRUD de tareas desde el CLI
   case 'add':
     if (!arg) {
-      console.log('❌ Debes escribir una tarea');
+      console.log('❌ You must write a task');
       return;
     } else {
       addTask(arg);
@@ -28,7 +28,7 @@ switch (command) {
     const edit = parseInt(arg);
     const description = process.argv[4];
     if (!arg || !description) {
-      console.log('❌ Debes escribir un índice y una tarea');
+      console.log('❌ You must write an index and a task');
       return;
     } else {
       editTask(edit, description);
@@ -38,7 +38,7 @@ switch (command) {
   case 'delete':
     const deleteTasks = parseInt(arg);
     if (!arg) {
-      console.log('❌ Debes escribir un índice');
+      console.log('❌ You must write an index');
       return;
     } else {
       deleteTask(deleteTasks);
@@ -69,7 +69,7 @@ switch (command) {
   case 'complete':
     const complete = parseInt(arg);
     if (!arg) {
-      console.log('❌ Debes escribir un índice');
+      console.log('❌ You must write an index');
       return;
     } else {
       completeTask(complete);
@@ -79,7 +79,7 @@ switch (command) {
   case 'not-complete':
     const notComplete = parseInt(arg);
     if (!arg) {
-      console.log('❌ Debes escribir un índice');
+      console.log('❌ You must write an index');
       return;
     } else {
       notCompleteTask(notComplete);
@@ -102,6 +102,6 @@ switch (command) {
     break;
  // Opcion por defecto si no encuentra el comando
   default:
-    console.log('❌ Comando no válido');
+    console.log('❌ Invalid command');
     break;
 }
