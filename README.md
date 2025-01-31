@@ -13,7 +13,8 @@ Task tracker cli is a project used to track and manage your tasks. In this task,
 - [Contact](#contact)
 
 ## Project link
-- https://roadmap.sh/projects/task-tracker
+
+[https://roadmap.sh/projects/task-tracker](https://roadmap.sh/projects/task-tracker)
 
 ## Requirements
 
