@@ -13,8 +13,7 @@ Task tracker cli is a project used to track and manage your tasks. In this task,
 - [Contact](#contact)
 
 ## Project link
-
-- https://github.com/muke78/task-tracker-cli
+- https://roadmap.sh/projects/task-tracker
 
 ## Requirements
 
