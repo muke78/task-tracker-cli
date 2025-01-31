@@ -23,10 +23,9 @@ const listTasks = () => {
   if (task.length === 0) {
     console.log('No hay tareas pendientes 🗑️');
   } else {
-    console.log('Lista de tareas');
     console.table(
       task.map((task, index) => ({
-        '#': index + 1,
+        '#ID': index + 1,
         Description: task.description,
         State: getStatusEmoji(task.status),
         Created: task.createAt.split('T')[0],
@@ -82,7 +81,7 @@ const deleteTask = (index) => {
   saveTask(task);
   console.table(
     deletedTask.map(() => ({
-      '#': indexDelete,
+      '#ID': indexDelete,
       Descripción: `❌ Tarea eliminada: "${deletedTask[0].description}"`,
     }))
   );
@@ -131,7 +130,7 @@ const listTasksInProgress = () => {
   } else {
     console.table(
       taskInProgress.map((task, index) => ({
-        '#': index + 1,
+        '#ID': index + 1,
         Description: task.description,
         State: getStatusEmoji(task.status),
         Created: task.createAt.split('T')[0],
@@ -150,7 +149,7 @@ const notDoneTask = () => {
   } else {
     console.table(
       taskNotDone.map((task, index) => ({
-        '#': index + 1,
+        '#ID': index + 1,
         Description: task.description,
         State: getStatusEmoji(task.status),
         Created: task.createAt.split('T')[0],
@@ -169,7 +168,7 @@ const doneTask = () => {
   } else {
     console.table(
       taskDone.map((task, index) => ({
-        '#': index + 1,
+        '#ID': index + 1,
         Description: task.description,
         State: getStatusEmoji(task.status),
         Created: task.createAt.split('T')[0],

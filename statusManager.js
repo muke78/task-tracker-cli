@@ -1,3 +1,4 @@
+//Controlador de estados, o status para las tareas
 export const getStatusEmoji = (status) => {
     if (status.TaskThataAreDone) {
       return 'Task done ✔'; 

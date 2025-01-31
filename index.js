@@ -95,7 +95,7 @@ switch (command) {
     console.log('   🟢  - delete: Delete a task');
     console.log('   🟢  - complete: Mark a task as completed');
     console.log('   🟢  - not-complete: Mark a task as not completed');
-    console.log('   🟢  - list: List tasks');
+    console.log('   🟢  - list: List the tasks there are');
     console.log('   🟢  - list-progress: List tasks in progress');
     console.log('   🟢  - list-not-done: List tasks not completed');
     console.log('   🟢  - list-done: List completed tasks');

@@ -1,3 +1,4 @@
+//Controlador de fechas para los campos de Creacion y campos de actualizacion tener la logica por aparte
 const controlDate = () => {
   const now = new Date();
   let hours = now.getHours();
